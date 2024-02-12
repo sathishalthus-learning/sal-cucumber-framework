@@ -9,6 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(	features = "classpath:/features",
 					glue = {"lao"},
 					plugin = {"pretty"}
+					,tags = "log4j"
 		)
 public class CucumberTest {
 
